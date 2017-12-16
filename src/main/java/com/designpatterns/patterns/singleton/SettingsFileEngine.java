@@ -14,7 +14,6 @@ public class SettingsFileEngine {
     private SettingsFileEngine() {
     }
 
-
     private String fileName = "";
 
     public String getFileName() {
