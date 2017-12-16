@@ -1,4 +1,4 @@
-package com.designpatterns.patterns.decorator.starbuzzcoffe;
+package com.designpatterns.patterns.decorator.starbuzzcoffe.concretecomponents;
 
 import com.designpatterns.patterns.decorator.starbuzzcoffe.Beverage;
 

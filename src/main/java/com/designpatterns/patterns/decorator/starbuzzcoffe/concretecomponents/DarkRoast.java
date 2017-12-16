@@ -1,18 +1,21 @@
-package com.designpatterns.patterns.decorator.starbuzzcoffe;
+package com.designpatterns.patterns.decorator.starbuzzcoffe.concretecomponents;
 
 import com.designpatterns.patterns.decorator.starbuzzcoffe.Beverage;
 
 import java.math.BigDecimal;
 
-public class Decaf implements Beverage {
+public class DarkRoast implements Beverage {
+
+    private String size;
 
     @Override
     public BigDecimal getCost() {
-        return new BigDecimal(4);
+        return new BigDecimal(3);
     }
 
     @Override
     public String getDescription() {
-        return "Decaf";
+        return "Dark Roast";
     }
+
 }

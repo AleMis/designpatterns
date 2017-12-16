@@ -6,6 +6,7 @@ import java.math.BigDecimal;
 public abstract class AbstractBeverageDecorator implements Beverage {
 
     private Beverage beverage;
+    private String size;
 
     public AbstractBeverageDecorator(Beverage beverage) {
         this.beverage = beverage;
@@ -20,4 +21,5 @@ public abstract class AbstractBeverageDecorator implements Beverage {
     public String getDescription() {
         return beverage.getDescription();
     }
+
 }
